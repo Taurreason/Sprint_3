@@ -41,7 +41,7 @@ class OnlineSalesRegisterCollector:
                 total.append(self.__item_price[items])
         
         if len(total) > 10:
-            result = sum(total) * 0.1
+            result = sum(total) * 0.9
         else:
             result = sum(total)
 
@@ -57,7 +57,7 @@ class OnlineSalesRegisterCollector:
                 total.append(self.__item_price[items])
         
         if len(total) > 10:
-            result = (sum(total) * 0.1) * 0.2
+            result = (sum(total) * 0.9) * 0.2
         else:
             result = sum(total) * 0.2
 
@@ -73,7 +73,7 @@ class OnlineSalesRegisterCollector:
                 total.append(self.__item_price[items])
         
         if len(total) > 10:
-            result = (sum(total) * 0.1) * 0.1
+            result = (sum(total) * 0.9) * 0.1
         else:
             result = sum(total) * 0.1
         
